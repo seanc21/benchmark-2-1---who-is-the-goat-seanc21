@@ -1,0 +1,43 @@
+h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+.main {
+    text-align:center;
+}
+
+#image {
+    height: 280px;
+    width: 400px;
+}
+
+#image-with-goat {
+    width: 280px;
+    height: 400px;
+}
+
+#goat-info {
+    text-align: auto;
+}
+
+#why-the-goat{
+    margin-inline-start: 735px;
+
+}
+
+#right {
+    margin-right: 720px;
+}
+
+li {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.background {
+    text-align: center;
+    margin: 4%;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(110deg, rgb(196, 155, 21) -10%, rgba(0, 0, 0, 0) 50%), linear-gradient(110deg, #0a2ab4 46%, #e40808 100%);
+}
