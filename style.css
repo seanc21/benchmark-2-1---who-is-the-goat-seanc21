@@ -43,7 +43,7 @@ li {
 }
 .background {
     text-align: center;
-    margin: 4%;
-    color: rgb(255, 255, 255);
+    margin: -1rem;
+    color: rgb(233, 233, 233);
     background: linear-gradient(110deg, rgb(196, 155, 21) -10%, rgba(0, 0, 0, 0) 50%), linear-gradient(110deg, #0a2ab4 46%, #e40808 100%);
 }
