@@ -21,9 +21,8 @@ h2 {
     text-align: auto;
 }
 
-#why-the-goat{
-    margin-inline-start: 735px;
-
+#why-the-goat {
+    text-decoration: none;
 }
 
 #right {
@@ -37,7 +36,19 @@ li {
 
 .background {
     text-align: center;
-    margin: 4%;
     color: rgb(255, 255, 255);
-    background: linear-gradient(110deg, rgb(196, 155, 21) -10%, rgba(0, 0, 0, 0) 50%), linear-gradient(110deg, #0a2ab4 46%, #e40808 100%);
 }
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(110deg, rgb(196, 155, 21) -10%, rgba(0, 0, 0, 0) 50%), linear-gradient(110deg, #0a2ab4 46%, #e40808 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
