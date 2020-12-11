@@ -34,7 +34,18 @@ li {
     font-size: 19px;
 }
 
+#logo {
+    margin: 50px 150px 170px -30px;
+    width: 400px;
+    height: 300px;
+}
 .background {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-top: -16px;
+    margin-right: -8.99px;
+    margin-bottom: -16px;
+    margin-left: -8px;
     text-align: center;
     color: rgb(255, 255, 255);
 }
